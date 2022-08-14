@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|robots\.txt)
+RewriteRule ^(.*)$ /Watsadu/index.php/$1 [L]
+Header set Access-Control-Allow-Origin *
