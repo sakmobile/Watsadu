@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.201.225',
+	'hostname' => '127.0.0.1',
 	'username' => 'root',
 	'password' => 'boom123',
-	'database' => 'lottery',
+	'database' => 'Watsadu',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

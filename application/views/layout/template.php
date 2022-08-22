@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
   <!-- Toastr -->
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/toastr/toastr.min.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/dist/css/adminlte.min.css">
@@ -101,7 +103,7 @@
   <script src="<?php echo base_url() ?>assets/plugins/jquery-ui/jquery-ui.min.js"></script>
   <!-- Bootstrap 4 -->
   <script src="<?php echo base_url() ?>assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <script src="<?php echo base_url() ?>assets/plugins/select2/js/select2.full.min.js"></script>
 
   <!-- DataTables  & Plugins -->
   <script src="<?php echo base_url() ?>assets/plugins/datatables/jquery.dataTables.min.js"></script>
@@ -132,6 +134,7 @@
   <script src="<?php echo base_url() ?>assets/dist/js/adminlte.min.js"></script>
   <script src="<?php echo base_url() ?>assets/plugins/chart.js/Chart.min.js"></script>
   <script src="<?php echo base_url() ?>assets/dist/js/demo.js"></script>
+  <script src="<?php echo base_url() ?>assets/dist/js/watsadu.js?v=2"></script>
  
  
 </body>
@@ -143,6 +146,7 @@
 </script>
 <script>
   $(function() {
+    $('.select2').select2();
     $('#example1').DataTable({
       "responsive": true,
       "lengthChange": false,
